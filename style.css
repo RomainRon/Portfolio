@@ -36,6 +36,10 @@ section{
     width: 288px ;
     height: 160px ;
 }
+#imgCV{
+    height: 75%;
+    width: 75%;
+}
 
 #text{
     color: #fff;
