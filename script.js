@@ -129,8 +129,15 @@ nextBtn.addEventListener('click', showNextCard);
 });
 function openGmailPopup() {
     // URL spécifique pour ouvrir Gmail dans un nouvel e-mail
-    var gmailUrl = "https://mail.google.com/mail/?view=cm&fs=1&to=rondepierreromain@gmail.com";
+    const gmailUrl = "https://mail.google.com/mail/?view=cm&fs=1&to=rondepierreromain@gmail.com";
     
     // Ouvre une nouvelle fenêtre pop-up avec l'URL de Gmail
     window.open(gmailUrl, "GmailPopup", "width=600,height=400");
+}
+function openCVPopup() {
+    // URL spécifique pour ouvrir Gmail dans un nouvel e-mail
+    const CvUrl = "https://drive.google.com/file/d/1188s07q8nMfWzmyHwxss51-nvlOyKm9Q/view";
+    
+    // Ouvre une nouvelle fenêtre pop-up avec l'URL de Gmail
+    window.open(CvUrl);
 }
